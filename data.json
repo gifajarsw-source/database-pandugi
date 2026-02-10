@@ -1,0 +1,18 @@
+{
+  "giName": "GI CONTOH PUSAT",
+  "version": 1,
+  "alarms": [
+    {"s":"TRAFO 1", "a":"Bucholz Trip", "m":"Indikasi Gas", "p":"Internal Fault", "t":"Lapor Dispatcher"},
+    {"s":"TRAFO 2", "a":"Temp High", "m":"Suhu > 90C", "p":"Overload", "t":"Cek Pendingin"}
+  ],
+  "contacts": [
+    {"name":"Dispatcher", "no":"12345"}
+  ],
+  "sops": [
+    {"name": "SOP Pemeliharaan Trafo", "url": "https://raw.githubusercontent.com/USERNAME/REPO/main/sop_trafo.pdf", "date": "2024-01-01"},
+    {"name": "SOP Baterai", "url": "https://raw.githubusercontent.com/USERNAME/REPO/main/sop_baterai.pdf", "date": "2024-02-01"}
+  ],
+  "assets": [
+    {"name": "Datasheet PMT T1", "url": "https://raw.githubusercontent.com/USERNAME/REPO/main/pmt_t1.pdf", "date": "2010"}
+  ]
+}
